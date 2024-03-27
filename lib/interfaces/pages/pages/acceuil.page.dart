@@ -48,6 +48,7 @@ class _PageAceeuilState extends State<PageAceeuil> {
         actions: [
           IconButton(icon: const Icon(Icons.refresh),onPressed: (){
             _scrollListener();
+            setState(() {});
           }),
         ],
       ),
